@@ -21,4 +21,4 @@ else:
     print("Rectangles overlap")
 
 #ya to ek(dusra b ho sakta) rec dusre k upper hoga ya toh niche 
-#matlab ki overlap na hone hi ki condition nikaal lo  
+#mtlb ki overlap na hone hi ki condition nikaal lo  
