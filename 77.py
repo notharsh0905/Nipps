@@ -1,19 +1,7 @@
-# Python code to find smallest K-digit  
-# number divisible by X
+#Given a list of integers, find the second largest number.
+#Assume the list has at least 2 distinct elements.
+#Example: [1, 5, 3, 7, 2] -> 5
 
-def sumOfSeries(num):
-    
-    # Computing MAX
-    res = 0
-    fact = 1
-    
-    for i in range(1, num+1):
-        fact *= i
-        res = res + (i/ fact)
-        
-    return res
-    
-
-n = 5
-print("Sum: ", sumOfSeries(n))
-
+nums = list(map(int, input("Enter numbers separated by space: ").split()))
+unique_nums = sorted(set(nums), reverse=True)
+print("Second largest:", unique_nums[1])
